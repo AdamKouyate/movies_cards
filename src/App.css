@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Define a class for the cards container */
+.cards-container {
+  display: flex; /* Make the cards display in a row */
+  flex-wrap: wrap; /* Allow the cards to wrap to the next line when the window is too narrow */
+}
+
+/* Define a class for the individual cards */
+.card {
+  width: 25%; /* Set the width of the card to 25% of the container */
+  margin: 0.5%; /* Add some margin around the cards */
+}
+
+/* Define a class for the card's progress bar */
+.card progress {
+  width: 100%; /* Make the progress bar fill the entire width of the card */
+}
+
+.cards-container{
+  border: #282c34;
+  border-radius: 2em;
+}
